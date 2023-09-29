@@ -9,8 +9,8 @@ function App() {
       return;
     }
 
-    console.log("Version ->", import.meta.env.VITE_APP_VERSION);
-    console.log("Environment ->", import.meta.env.VITE_APP_ENV);
+    console.info(`${import.meta.env.VITE_APP_NAME} by ${import.meta.env.VITE_APP_DEVELOPER}`);
+    console.info(`Nerds Properties: ${import.meta.env.VITE_APP_VERSION} | ${import.meta.env.VITE_APP_ENVIRONMENT}`);
   }, [])
 
   return <>App Test</>
