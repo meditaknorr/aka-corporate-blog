@@ -1,7 +1,7 @@
 /*
     Started on  : October 2, 2023
     Author      : __MeditaKnorr
-    Project     : INAS IP - website
+    Project     : INAS IP - WebSite
 */
 * {
   margin: 0;
@@ -58,7 +58,7 @@ header div.header--first-row {
   border: 0;
   display: flex;
   justify-content: space-between;
-  background: #F1F1F1;
+  background: #f1f1f1;
 }
 header div.header--first-row div.first-row__left-container div#user-current-date {
   width: 180px;
@@ -81,7 +81,7 @@ header div.header--first-row div.first-row__right-container div#site-language-se
   width: 23px;
   height: 23px;
   border-radius: 50%;
-  background: url("/assets/images/icons/pt__icon.png") no-repeat;
+  background: url("../assets/images/icons/pt__icon.png") no-repeat;
   background-size: 25px 25px;
   background-position: center;
   border: 3px solid #FFFFFF;
@@ -94,7 +94,7 @@ header div.header--first-row div.first-row__right-container div#site-language-se
   width: 23px;
   height: 23px;
   border-radius: 50%;
-  background: url("/assets/images/icons/uk__icon.png") no-repeat;
+  background: url("../assets/images/icons/uk__icon.png") no-repeat;
   background-size: cover;
   background-position: center;
   border: 3px solid #FFFFFF;
@@ -116,7 +116,7 @@ header div.header--second-row {
 header div.header--second-row div.second-row__left-container div#site-logo-icon {
   width: 120px;
   height: 80px;
-  background: url("/assets/images/icons/inas__logo.png") no-repeat;
+  background: url("../assets/images/icons/inas__logo.png") no-repeat;
   background-size: contain;
   background-position: center;
   margin: auto 0;
@@ -155,13 +155,13 @@ header div.header--second-row div.second-row__right-container div#site-search-an
   height: 22px;
   border-radius: 50%;
   color: rgba(57, 57, 57, 0);
-  background: rgba(57, 57, 57, 0.2) url("/assets/images/icons/magnifier__icon.svg") no-repeat;
+  background: rgba(57, 57, 57, 0.2) url("../assets/images/icons/magnifier__icon.svg") no-repeat;
   background-size: 40%;
   background-position: center;
 }
 header div.header--second-row div.second-row__right-container div#site-search-and-socials form.site-search-bar button.search-icon:hover {
   cursor: pointer;
-  background-color: #00b955;
+  background-color: #00986F;
 }
 header div.header--second-row div.second-row__right-container div#site-search-and-socials div.socials-icons {
   display: flex;
@@ -219,8 +219,8 @@ header div.header--third-row div.main-container nav#site-navigation-links div.na
   font-size: 14px;
   font-weight: 650;
   line-height: 56px;
-  background-color: rgba(250, 250, 250, 0.9);
-  color: #393939;
+  background-color: rgba(0, 152, 111, 0.95);
+  color: #FFFFFF;
   margin: 1.5px;
   padding: 0 30px;
   border: 0;
@@ -228,18 +228,11 @@ header div.header--third-row div.main-container nav#site-navigation-links div.na
 }
 header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link:hover {
   cursor: pointer;
-  color: #FFFFFF;
-  background-color: #00b955;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr="#FFFFCC29", endColorstr="#FFF0B304");
-  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmY2MyOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwYjMwNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00b955), color-stop(100%, #00a74e));
-  background-image: -webkit-linear-gradient(top, #00b955 0%, #00a74e 100%);
-  background-image: -moz-linear-gradient(top, #00b955 0%, #00a74e 100%);
-  background-image: -o-linear-gradient(top, #00b955 0%, #00a74e 100%);
-  background-image: linear-gradient(top, #00b955 0%, #00a74e 100%);
+  color: #393939;
+  background-color: #D1E7DB;
 }
 header div.header--third-row div.main-container nav#site-navigation-links span.navigation-with-options::after {
-  background-image: url("/assets/images/icons/black-arrow__icon.svg");
+  background-image: url("../assets/images/icons/black-arrow__icon.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -293,7 +286,7 @@ header div.header--third-row div.main-container section#site-image-carousel div.
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: url("/assets/images/icons/left-arrow__icon.svg") no-repeat;
+  background: url("../assets/images/icons/left-arrow__icon.svg") no-repeat;
   background-size: 30%;
   background-position: center;
   margin: auto 0;
@@ -309,7 +302,7 @@ header div.header--third-row div.main-container section#site-image-carousel div.
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: url("/assets/images/icons/right-arrow__icon.svg") no-repeat;
+  background: url("../assets/images/icons/right-arrow__icon.svg") no-repeat;
   background-size: 30%;
   background-position: center;
   margin: auto 0;
@@ -366,6 +359,10 @@ main section.main__left-container div#featured-card-news div.tiled-card:hover {
   opacity: 1;
   border: 1px dotted rgba(0, 0, 0, 0.4);
   cursor: pointer;
+}
+main section.main__left-container div#featured-card-news div.tiled-card:hover div.tiled-card-thumbnail img {
+  width: 101%;
+  height: 101%;
 }
 main section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail {
   width: 100%;
@@ -434,7 +431,7 @@ footer div.footer__icon {
   width: 62px;
   height: 62px;
   border: 1px solid #e4e4e4;
-  background-image: url("/assets/images/icons/emblem__logo.png");
+  background-image: url("../assets/images/icons/emblem__logo.png");
   background-color: #e4e4e4;
   background-repeat: no-repeat;
   background-size: cover;
