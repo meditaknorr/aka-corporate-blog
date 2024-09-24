@@ -409,7 +409,7 @@ div#main-content-area {
     margin: 0;
     border: 0;
 
-    h2 {
+    h2.left-container--section-title {
       width: 100%;
       font-size: 14px;
       margin: 40px 0 0 0;
@@ -499,6 +499,13 @@ div#main-content-area {
     background-image: -o-linear-gradient(rgba(#e1e1e1, 0.7), #ffffff);
     background-image: linear-gradient(rgba(#e1e1e1, 0.7), #ffffff);
     font-size: 13px;
+
+    h2.right-container--section-title {
+      width: 100%;
+      font-size: 14px;
+      margin: 40px 0 0 0;
+      text-align: left;
+    }
   }
 }
 

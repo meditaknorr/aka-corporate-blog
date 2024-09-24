@@ -363,7 +363,7 @@ div#main-content-area section.main__left-container {
   margin: 0;
   border: 0;
 }
-div#main-content-area section.main__left-container h2 {
+div#main-content-area section.main__left-container h2.left-container--section-title {
   width: 100%;
   font-size: 14px;
   margin: 40px 0 0 0;
@@ -442,6 +442,12 @@ div#main-content-area aside.main__right-container {
   background-image: -o-linear-gradient(rgba(225, 225, 225, 0.7), #ffffff);
   background-image: linear-gradient(rgba(225, 225, 225, 0.7), #ffffff);
   font-size: 13px;
+}
+div#main-content-area aside.main__right-container h2.right-container--section-title {
+  width: 100%;
+  font-size: 14px;
+  margin: 40px 0 0 0;
+  text-align: left;
 }
 
 footer {
