@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./dist/index.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="./javascript/jquery-3.7.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>INAS IP, Página Inicial</title>
+    <title>Página Inicial, INAS IP</title>
   </head>
   <body>
 
@@ -49,32 +51,94 @@
       <div class="header--third-row">
         <div class="main-container">
           <nav id="site-navigation-links">
-            <div class="navigation-link">O INAS<span class="navigation-with-options"></span></div>
-            <div class="navigation-link">Os Programas Sociais<span class="navigation-with-options"></span></div>
-            <div class="navigation-link">Processos<span class="navigation-with-options"></span></div>
-            <div class="navigation-link">Tecnologias (TICs)</div>
-            <div class="navigation-link">Documentos<span class="navigation-with-options"></span></div>
-            <div class="navigation-link">Imprensa<span class="navigation-with-options"></span></div>
-            <div class="navigation-link">Estatísticas</div>
-            <div class="navigation-link">Reclamações e Sugestões</div>
-            <div class="navigation-link">Contactos</div>
+            <div class="navigation-link" id="link-1">
+              O INAS
+              <span class="navigation-with-options"></span>
+            </div>
+            <div class="navigation-link-pane" id="link-1-pane">
+              Pane Link 1
+            </div>
+            <!-- n. 1 to 2 --->
+            <div class="navigation-link" id="link-2">
+              Os Programas Sociais
+              <span class="navigation-with-options"></span>
+            </div>
+            <div class="navigation-link-pane" id="link-2-pane">
+              Pane Link 2
+            </div>
+            <!-- n. 2 to 3 --->
+            <div class="navigation-link" id="link-3">
+              Processos
+              <span class="navigation-with-options"></span>
+            </div>
+            <div class="navigation-link-pane" id="link-3-pane">
+              Pane Link 3
+            </div>
+            <!-- n. 3 to 4 --->
+            <div class="navigation-link" id="link-4">
+              Tecnologias (TICs)
+            </div>
+            <!-- n. 4 to 5 --->
+            <div class="navigation-link" id="link-5">
+              Documentos
+              <span class="navigation-with-options"></span>
+            </div>
+            <div class="navigation-link-pane" id="link-5-pane">
+              Pane Link 4
+            </div>
+            <!-- n. 5 to 6 --->
+            <div class="navigation-link" id="link-6">
+              Imprensa
+              <span class="navigation-with-options"></span>
+            </div>
+            <div class="navigation-link-pane" id="link-6-pane">
+              Pane Link 6
+            </div>
+            <!-- n. 6 to 7 --->
+            <div class="navigation-link" id="link-7">
+              Estatísticas
+            </div>
+            <!-- n. 7 to 8 --->
+            <div class="navigation-link" id="link-8">
+              Reclamações e Sugestões
+            </div>
+            <!-- n. 8 to 9 --->
+            <div class="navigation-link" id="link-9">
+              Contactos
+            </div>
           </nav>
 
           <section id="site-image-carousel">
             <div class="carousel-action-area">
               <div class="action-buttons">
-                <div id="left-carousel-image"></div>
-                <div id="right-carousel-image"></div>
+                <a id="left-carousel-image" data-slide="prev" href="#myCarousel"></a>
+                <a id="right-carousel-image" data-slide="next" href="#myCarousel"></a>
               </div>
             </div>
-            <img height="1290" width="4000" alt="" class="carousel-image" src="./assets/images/gallery/image__gallery.jpg">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img height="1290" width="4000" alt="" class="carousel-image" src="./assets/images/gallery/image__gallery1.jpg">
+                </div>
+                <div class="item">
+                  <img height="1290" width="4000" alt="" class="carousel-image" src="./assets/images/gallery/image__gallery2.jpg">
+                </div>
+                <div class="item">
+                  <img height="1290" width="4000" alt="" class="carousel-image" src="./assets/images/gallery/image__gallery3.jpg">
+                </div>
+                <div class="item">
+                  <img height="1290" width="4000" alt="" class="carousel-image" src="./assets/images/gallery/image__gallery4.jpg">
+                </div>
+              </div>
+            </div>
           </section>
         </div>
       </div>
     </header>
 
     <!-- Main area -->
-    <main id="main">
+    <div id="main-content-area">
       <section class="main__left-container">
         <h2>― NOTÍCIAS EM DESTAQUE</h2>
         <div id="featured-card-news">
@@ -160,16 +224,18 @@
             </div>
           </div>
         </div>
+
         <h2>― PUBLICAÇÕES EM DESTAQUE</h2>
         <div id="featured-docs-posts"></div>
+
         <h2>― MÍDIAS EM DESTAQUE</h2>
         <div id="featured-photos-of-the-week"></div>
       </section>
 
       <aside class="main__right-container">
-        <h2></h2>
+        <h2><h2>― ORGANOGRAMA</h2></h2>
       </aside>
-    </main>
+    </div>
 
     <!-- Footer area -->
     <footer id="footer">
@@ -188,6 +254,8 @@
         </span>
       </div>
     </footer>
+
+    <script src="./javascript/index.js"></script>
   </body>
 </html>
 
