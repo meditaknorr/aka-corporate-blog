@@ -4,6 +4,7 @@
     Project     : INAS IP - WebSite
     File        : Cascading Style Sheets (.CSS)
 */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -64,7 +65,7 @@ body {
   direction: ltr;
   background: #ffffff;
   overflow-x: hidden;
-  font-family: "Open Sans", "Segoe Ui", arial !important;
+  font-family: "Fira Sans", sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
@@ -448,10 +449,11 @@ main#main-content-area {
   flex-direction: row;
   justify-content: space-between;
   color: #393939;
+  position: relative;
 }
 main#main-content-area section.main__left-container {
   width: calc(100% - 400px);
-  height: 1024px;
+  height: auto;
   padding: 0;
   margin: 0;
   border: 0;
@@ -541,6 +543,18 @@ main#main-content-area section.main__left-container div#featured-card-news div.t
   text-overflow: ellipsis;
   overflow: hidden;
 }
+main#main-content-area section.main__left-container div#featured-docs-posts {
+  width: 100%;
+  min-height: 480px;
+  margin: 40px 20px 0 0px;
+  border: 1px solid red;
+}
+main#main-content-area section.main__left-container div#featured-media-files {
+  width: 100%;
+  min-height: 480px;
+  margin: 40px 20px 0 0px;
+  border: 1px solid #10b41d;
+}
 main#main-content-area aside.main__right-container {
   width: 400px;
   min-height: 1024px;
@@ -564,13 +578,13 @@ main#main-content-area aside.main__right-container h2.right-container--section-t
 }
 
 footer {
-  width: inherit;
+  width: 100%;
   height: auto;
-  background: #f8f8f8;
-  padding: 0 15px;
+  position: relative;
+  background: #f1f1f1;
   border-top: 3px solid #e4e4e4;
   margin: 100px 0 0 0;
-  padding: 0 0 70px 0;
+  padding: 0 150px 70px 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -589,15 +603,24 @@ footer div.footer__icon {
   border-radius: 31px;
 }
 footer div.footer__container {
-  width: 1024px;
-  min-height: 580px;
+  width: 100%;
+  min-height: 480px;
+  border: 1px solid red;
 }
 footer div.footer__copyright {
-  width: 1024px;
-  height: 40px;
+  width: 100%;
+  min-height: 40px;
+  font-size: 14px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   color: #5a5a5a;
+}
+footer div.footer__copyright span {
+  display: flex;
+}
+footer div.footer__copyright span div {
+  line-height: 22px;
+  margin: -8px 0 0 12px;
 }
