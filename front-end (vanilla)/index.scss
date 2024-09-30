@@ -385,6 +385,7 @@ header {
             div.carousel-image-text {
               width: 350px;
               max-height: 240px;
+              z-index: 34;
               position: absolute;
               top: 170px;
               left: 50px;
@@ -401,8 +402,20 @@ header {
               border-radius: 5px;
             }
 
+            div.carousel-image-gradient-layer {
+              width: 756px;
+              height: 506px;
+              background: rgba(0, 0, 0, 1);
+              background: -moz-linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
+              background: -webkit-linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
+              background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
+              position: absolute;
+              z-index: 33;
+            }
+
             img.carousel-image {
               object-fit: cover;
+              z-index: 32;
             }
           }
         }
@@ -410,12 +423,8 @@ header {
         div.carousel-action-area {
           width: 756px;
           height: 506px;
-          background: rgba(0, 0, 0, 1);
-          background: -moz-linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
-          background: -webkit-linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
-          background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
           position: absolute;
-          z-index: 32;
+          z-index: 33;
           display: flex;
           justify-content: center;
           align-items: center;

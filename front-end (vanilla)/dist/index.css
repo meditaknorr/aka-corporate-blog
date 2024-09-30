@@ -344,6 +344,7 @@ header div.header--third-row div.main-container section#site-image-carousel div.
 header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item div.carousel-image-text {
   width: 350px;
   max-height: 240px;
+  z-index: 34;
   position: absolute;
   top: 170px;
   left: 50px;
@@ -359,10 +360,7 @@ header div.header--third-row div.main-container section#site-image-carousel div.
   padding: 15px 10px;
   border-radius: 5px;
 }
-header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item img.carousel-image {
-  object-fit: cover;
-}
-header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item div.carousel-image-gradient-layer {
   width: 756px;
   height: 506px;
   background: black;
@@ -370,7 +368,17 @@ header div.header--third-row div.main-container section#site-image-carousel div.
   background: -webkit-linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
   position: absolute;
+  z-index: 33;
+}
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item img.carousel-image {
+  object-fit: cover;
   z-index: 32;
+}
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area {
+  width: 756px;
+  height: 506px;
+  position: absolute;
+  z-index: 33;
   display: flex;
   justify-content: center;
   align-items: center;
