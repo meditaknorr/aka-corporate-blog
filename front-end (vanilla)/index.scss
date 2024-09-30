@@ -536,12 +536,13 @@ main#main-content-area {
         margin: auto 0;
         padding: 5px 20px;
         border-radius: 10px;
-        color: rgba(#FFFFFF, 1.0);
-        background-color: rgba(#A26115, 1.0);
+        //color: rgba(#FFFFFF, 1.0);
+        color: rgba(#A26115, 1.0);
 
         &:hover {
           cursor: pointer;
-          background-color: rgba(#8A5213, 1.0);
+          text-decoration: underline;
+          //background-color: rgba(#8A5213, 1.0);
         }
       }
     }

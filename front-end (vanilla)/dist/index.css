@@ -475,12 +475,11 @@ main#main-content-area section.main__left-container h2.left-container--section-t
   margin: auto 0;
   padding: 5px 20px;
   border-radius: 10px;
-  color: white;
-  background-color: #a26115;
+  color: #a26115;
 }
 main#main-content-area section.main__left-container h2.left-container--section-title a.left-container--section-title-link:hover {
   cursor: pointer;
-  background-color: #8a5213;
+  text-decoration: underline;
 }
 main#main-content-area section.main__left-container div#featured-card-news {
   width: 100%;
