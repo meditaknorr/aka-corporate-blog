@@ -541,7 +541,7 @@ main#main-content-area {
 
         &:hover {
           cursor: pointer;
-          text-decoration: underline;
+          text-decoration: underline !important;
           //background-color: rgba(#8A5213, 1.0);
         }
       }
@@ -700,6 +700,7 @@ footer {
 
     span {
       display: flex;
+      text-transform: uppercase;
 
       div {
         line-height: 22px;

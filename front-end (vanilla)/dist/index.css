@@ -479,7 +479,7 @@ main#main-content-area section.main__left-container h2.left-container--section-t
 }
 main#main-content-area section.main__left-container h2.left-container--section-title a.left-container--section-title-link:hover {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 main#main-content-area section.main__left-container div#featured-card-news {
   width: 100%;
@@ -618,6 +618,7 @@ footer div.footer__copyright {
 }
 footer div.footer__copyright span {
   display: flex;
+  text-transform: uppercase;
 }
 footer div.footer__copyright span div {
   line-height: 22px;
