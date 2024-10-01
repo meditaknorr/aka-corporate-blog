@@ -6,10 +6,12 @@
     File        : JavaScript (.JS) + JQuery
 */
 
+// Home Variables
 let selectedLink = '';
 
 $(document).ready(function(){
   /** HomePage */
+
   $('div.navigation-link').click(function(e){
     showNavigationPane($(this).attr("id"));
   });
@@ -19,14 +21,20 @@ $(document).ready(function(){
     if (!container.is(e.target) && container.has(e.target).length === 0){
       $('div.navigation-link-pane').removeClass('show-element');
     }
-});
+  });
+
+  $('div.docs-posts-buttons div').click(function(e){
+    $('div.docs-posts-buttons div').removeClass('active');
+    $('div.docs-posts-boards div').removeClass('active');
+    showDocPostBoard($(this).attr("id"));
+
+  });
 
   /** OtherPage */
 });
 
 function showNavigationPane(id) {
   if(selectedLink) {
-    console.log(selectedLink);
     $('#' + selectedLink + '-pane').removeClass('show-element');
     if(selectedLink === id) {
       selectedLink = '';
@@ -36,4 +44,9 @@ function showNavigationPane(id) {
 
   selectedLink = id;
   $('#' + selectedLink + '-pane').toggleClass('show-element');
+}
+
+async function showDocPostBoard(id) {
+$('div.docs-posts-boards div#' + id + '-board').addClass('active');
+  $('div.docs-posts-buttons div#' + id).addClass('active');
 }

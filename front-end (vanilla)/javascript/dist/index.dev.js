@@ -8,6 +8,7 @@
     Project     : INAS IP - WebSite
     File        : JavaScript (.JS) + JQuery
 */
+// Home Variables
 var selectedLink = '';
 $(document).ready(function () {
   /** HomePage */
@@ -21,12 +22,16 @@ $(document).ready(function () {
       $('div.navigation-link-pane').removeClass('show-element');
     }
   });
+  $('div.docs-posts-buttons div').click(function (e) {
+    $('div.docs-posts-buttons div').removeClass('active');
+    $('div.docs-posts-boards div').removeClass('active');
+    showDocPostBoard($(this).attr("id"));
+  });
   /** OtherPage */
 });
 
 function showNavigationPane(id) {
   if (selectedLink) {
-    console.log(selectedLink);
     $('#' + selectedLink + '-pane').removeClass('show-element');
 
     if (selectedLink === id) {
@@ -37,4 +42,20 @@ function showNavigationPane(id) {
 
   selectedLink = id;
   $('#' + selectedLink + '-pane').toggleClass('show-element');
+}
+
+function showDocPostBoard(id) {
+  return regeneratorRuntime.async(function showDocPostBoard$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          $('div.docs-posts-boards div#' + id + '-board').addClass('active');
+          $('div.docs-posts-buttons div#' + id).addClass('active');
+
+        case 2:
+        case "end":
+          return _context.stop();
+      }
+    }
+  });
 }
