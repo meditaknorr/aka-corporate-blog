@@ -732,7 +732,32 @@ footer div.footer__icon {
 footer div.footer__container {
   width: 100%;
   min-height: 480px;
-  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+footer div.footer__container div.footer__links {
+  width: 150px;
+  height: 200px;
+}
+footer div.footer__container div.footer__links h4 {
+  width: 100%;
+  text-align: left;
+  font-size: 15px !important;
+}
+footer div.footer__container div.footer__links ul {
+  width: 100%;
+  list-style: none;
+}
+footer div.footer__container div.footer__links ul li {
+  width: 100%;
+  padding: 0;
+  text-wrap: wrap;
+  font-size: 13px !important;
+  color: rgba(57, 57, 57, 0.8);
+  text-align: left;
+  line-height: 17px;
 }
 footer div.footer__copyright {
   width: 100%;

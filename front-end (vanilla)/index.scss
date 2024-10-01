@@ -857,7 +857,36 @@ footer {
   div.footer__container {
     width: 100%;
     min-height: 480px;
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    div.footer__links {
+      width: 150px;
+      height: 200px;
+
+      h4 {
+        width: 100%;
+        text-align: left;
+        font-size: 15px !important;
+      }
+
+      ul {
+        width: 100%;
+        list-style: none;
+
+        li {
+          width: 100%;
+          padding: 0;
+          text-wrap: wrap;
+          font-size: 13px !important;
+          color: rgba($--primaryBlack, 0.8);
+          text-align: left;
+          line-height: 17px;
+        }
+      }
+    }
   }
 
   div.footer__copyright {
