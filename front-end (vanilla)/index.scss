@@ -820,12 +820,151 @@ main#main-content-area {
     h2.right-container--section-title {
       width: 100%;
       font-size: 14px;
-      margin: 40px 0 0 0;
+      margin: 30px 0;
       text-align: left;
     }
 
     div#featured-company-structure {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 0 0 0 20px;
+      gap: 30px;
 
+      div.company-structure-person {
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        gap: 20px;
+
+        div.person-profile-text {
+          width: 200px;
+          font-size: 14px;
+          line-height: 5px;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: center;
+          padding: 20px 0;
+        }
+
+        div.person-profile-photo {
+          width: 100px;
+          height: 115px;
+          border: 1px solid rgba($--primaryBlack, 0.2);
+          object-fit: cover;
+
+          img {
+            width: 100%;
+            height: 100%;
+            border: 6px solid rgba(#ffffff, 0.7);
+          }
+        }
+      }
+
+      a.company-structure-more-button {
+        width: 170px;
+        padding: 7px 15px;
+        margin: -5px 0 0 120px;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        color: rgba(#FFFFFF, 1.0);
+        background-color: $--primaryGreen;
+        font-weight: 600;
+        border-radius: 12px;
+        //align-self: flex-end;
+
+        &:hover {
+          cursor: pointer;
+          color: $--primaryBlack;
+        }
+      }
+    }
+
+    div#featured-company-days {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 0 0 0 20px;
+      gap: 20px;
+
+      div.company-days-links {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+
+        span {
+          width: 60px;
+          height: 50px;
+          padding: 10px;
+          text-align: center;
+          font-size: 13px;
+          line-height: 15px;
+          font-weight: 600;
+          text-wrap: wrap;
+          text-overflow: ellipsis;
+          color: rgba(#FFFFFF, 1.0);
+          background-color: $--primaryGreen;
+        }
+
+        a {
+          width: 280px;
+          height: 50px;
+          font-size: 13px;
+          font-weight: 600;
+          line-height: 15px;
+          padding: 8px 0 0 20px;
+          text-wrap: wrap;
+          text-overflow: ellipsis;
+          color: $--primaryBlack;
+
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline !important;
+          }
+        }
+      }
+    }
+
+    div#featured-quick-links {
+      min-height: 60px;
+      background-color: $--primaryBlack;
+      margin: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+
+      a.quick-link {
+        width: 100%;
+        padding: 20px;
+        text-align: left;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 600;
+        text-wrap: wrap;
+        text-overflow: ellipsis;
+        color: rgba(#FFFFFF, 1.0);
+        background-color: rgba(#FFFFFF, 0.05);
+
+        &:hover {
+          color: rgba(#FFFFFF, 1.0);
+          background-color: $--primaryGreen;
+        }
+      }
+    }
+
+    div#featured-quick-banner {
+      height: auto;
+      margin: 30px 20px;
+      object-fit: cover;
+
+      img.quick-banner-image {
+        width: 100%;
+      }
     }
   }
 }

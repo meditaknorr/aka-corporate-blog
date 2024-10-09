@@ -715,9 +715,135 @@ main#main-content-area aside.main__right-container {
 main#main-content-area aside.main__right-container h2.right-container--section-title {
   width: 100%;
   font-size: 14px;
-  margin: 40px 0 0 0;
+  margin: 30px 0;
   text-align: left;
 }
+main#main-content-area aside.main__right-container div#featured-company-structure {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 20px;
+  gap: 30px;
+}
+main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  gap: 20px;
+}
+main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-text {
+  width: 200px;
+  font-size: 14px;
+  line-height: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 20px 0;
+}
+main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo {
+  width: 100px;
+  height: 115px;
+  border: 1px solid rgba(57, 57, 57, 0.2);
+  object-fit: cover;
+}
+main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo img {
+  width: 100%;
+  height: 100%;
+  border: 6px solid rgba(255, 255, 255, 0.7);
+}
+main#main-content-area aside.main__right-container div#featured-company-structure a.company-structure-more-button {
+  width: 170px;
+  padding: 7px 15px;
+  margin: -5px 0 0 120px;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 152, 111, 0.95);
+  font-weight: 600;
+  border-radius: 12px;
+}
+main#main-content-area aside.main__right-container div#featured-company-structure a.company-structure-more-button:hover {
+  cursor: pointer;
+  color: #393939;
+}
+main#main-content-area aside.main__right-container div#featured-company-days {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 20px;
+  gap: 20px;
+}
+main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links span {
+  width: 60px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 600;
+  text-wrap: wrap;
+  text-overflow: ellipsis;
+  color: white;
+  background-color: rgba(0, 152, 111, 0.95);
+}
+main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links a {
+  width: 280px;
+  height: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  padding: 8px 0 0 20px;
+  text-wrap: wrap;
+  text-overflow: ellipsis;
+  color: #393939;
+}
+main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+main#main-content-area aside.main__right-container div#featured-quick-links {
+  min-height: 60px;
+  background-color: #393939;
+  margin: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+main#main-content-area aside.main__right-container div#featured-quick-links a.quick-link {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 600;
+  text-wrap: wrap;
+  text-overflow: ellipsis;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+main#main-content-area aside.main__right-container div#featured-quick-links a.quick-link:hover {
+  color: white;
+  background-color: rgba(0, 152, 111, 0.95);
+}
+main#main-content-area aside.main__right-container div#featured-quick-banner {
+  height: auto;
+  margin: 30px 20px;
+  object-fit: cover;
+}
+main#main-content-area aside.main__right-container div#featured-quick-banner img.quick-banner-image {
+  width: 100%;
+}
+
 footer {
   width: 100%;
   height: auto;
