@@ -141,7 +141,7 @@ header div.header--first-row div.first-row__right-container div#site-language-se
   width: 23px;
   height: 23px;
   border-radius: 50%;
-  background: url("../assets/images/icons/pt__icon.png") no-repeat;
+  background: url("../../assets/images/icons/pt__icon.png") no-repeat;
   background-size: 25px 25px;
   background-position: center;
   border: 3px solid #FFFFFF;
@@ -154,7 +154,7 @@ header div.header--first-row div.first-row__right-container div#site-language-se
   width: 23px;
   height: 23px;
   border-radius: 50%;
-  background: url("../assets/images/icons/uk__icon.png") no-repeat;
+  background: url("../../assets/images/icons/uk__icon.png") no-repeat;
   background-size: cover;
   background-position: center;
   border: 3px solid #FFFFFF;
@@ -176,7 +176,7 @@ header div.header--second-row {
 header div.header--second-row div.second-row__left-container div#site-logo-icon {
   width: 120px;
   height: 80px;
-  background: url("../assets/images/icons/inas__logo.png") no-repeat;
+  background: url("../../assets/images/icons/inas__logo.png") no-repeat;
   background-size: contain;
   background-position: center;
   margin: auto 0;
@@ -215,7 +215,7 @@ header div.header--second-row div.second-row__right-container div#site-search-an
   height: 22px;
   border-radius: 50%;
   color: rgba(57, 57, 57, 0);
-  background: rgba(57, 57, 57, 0.2) url("../assets/images/icons/magnifier__icon.svg") no-repeat;
+  background: rgba(57, 57, 57, 0.2) url("../../assets/images/icons/magnifier__icon.svg") no-repeat;
   background-size: 40%;
   background-position: center;
 }
@@ -311,7 +311,7 @@ header div.header--third-row div.main-container nav#site-navigation-links div.na
   padding: 30px;
 }
 header div.header--third-row div.main-container nav#site-navigation-links span.navigation-with-options::after {
-  background-image: url("../assets/images/icons/black-arrow__icon.svg");
+  background-image: url("../../assets/images/icons/black-arrow__icon.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -857,7 +857,7 @@ footer div.footer__icon {
   width: 62px;
   height: 62px;
   border: 1px solid #e4e4e4;
-  background-image: url("../assets/images/icons/emblem__logo.png");
+  background-image: url("../../assets/images/icons/emblem__logo.png");
   background-color: #e4e4e4;
   background-repeat: no-repeat;
   background-size: cover;
@@ -918,4 +918,4 @@ footer div.footer__copyright span div {
   line-height: 22px;
   margin: 20px 0 0 12px;
   text-transform: uppercase;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=our-technologies.css.map */

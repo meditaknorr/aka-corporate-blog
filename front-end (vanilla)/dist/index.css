@@ -281,8 +281,7 @@ header div.header--third-row div.main-container nav#site-navigation-links {
   justify-content: center;
 }
 header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link {
-  min-width: 120px;
-  height: 56px;
+  min-width: 130px;
   text-align: center;
   font-size: 14px;
   font-weight: 650;
@@ -290,9 +289,23 @@ header div.header--third-row div.main-container nav#site-navigation-links div.na
   background-color: rgba(0, 152, 111, 0.95);
   color: #d1e7db;
   margin: 1.5px;
-  padding: 0 30px;
+  padding: 0;
   border: 0;
   text-transform: uppercase;
+}
+header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link a.navigation-direct-link {
+  min-width: 130px;
+  color: inherit !important;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  padding: 18px 30px;
+}
+header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link a.navigation-direct-link:hover {
+  cursor: pointer;
+  color: #393939 !important;
+  background-color: #d1e7db;
 }
 header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link:hover {
   cursor: pointer;
