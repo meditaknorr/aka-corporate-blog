@@ -59,7 +59,7 @@ html {
   height: 100vh;
 }
 
-body#inas-contactpage {
+body {
   width: 100%;
   height: 100%;
   direction: ltr;
@@ -79,14 +79,15 @@ body#inas-contactpage {
   font-weight: 400;
   line-height: 0.5;
 }
-body#inas-contactpage header {
+
+header {
   position: relative;
   width: inherit;
   min-height: 50px;
   display: flex;
   flex-direction: column;
 }
-body#inas-contactpage header div.header--first-row {
+header div.header--first-row {
   width: 100%;
   height: 43px;
   padding: 0 150px;
@@ -96,7 +97,7 @@ body#inas-contactpage header div.header--first-row {
   justify-content: space-between;
   background: #f1f1f1;
 }
-body#inas-contactpage header div.header--first-row div.first-row__left-container div#user-current-date {
+header div.header--first-row div.first-row__left-container div#user-current-date {
   width: 360px;
   font-weight: 500;
   font-size: 11px;
@@ -104,12 +105,12 @@ body#inas-contactpage header div.header--first-row div.first-row__left-container
   line-height: 43px;
   color: #393939;
 }
-body#inas-contactpage header div.header--first-row div.first-row__right-container {
+header div.header--first-row div.first-row__right-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body#inas-contactpage header div.header--first-row div.first-row__right-container div#site-webmaster {
+header div.header--first-row div.first-row__right-container div#site-webmaster {
   width: 100px;
   height: 25px;
   border-radius: 10px;
@@ -122,7 +123,7 @@ body#inas-contactpage header div.header--first-row div.first-row__right-containe
   -o-transition: none !important;
   transition: none !important;
 }
-body#inas-contactpage header div.header--first-row div.first-row__right-container div#site-webmaster a.button {
+header div.header--first-row div.first-row__right-container div#site-webmaster a.button {
   width: 100%;
   height: 100%;
   font-weight: 600;
@@ -131,11 +132,11 @@ body#inas-contactpage header div.header--first-row div.first-row__right-containe
   text-decoration: none;
   color: inherit;
 }
-body#inas-contactpage header div.header--first-row div.first-row__right-container div#site-webmaster:hover {
+header div.header--first-row div.first-row__right-container div#site-webmaster:hover {
   cursor: pointer;
   background-color: #8a5213;
 }
-body#inas-contactpage header div.header--first-row div.first-row__right-container div#site-language-selector {
+header div.header--first-row div.first-row__right-container div#site-language-selector {
   display: flex;
   width: auto;
   font-weight: 500;
@@ -144,7 +145,7 @@ body#inas-contactpage header div.header--first-row div.first-row__right-containe
   line-height: 43px;
   color: #393939;
 }
-body#inas-contactpage header div.header--first-row div.first-row__right-container div#site-language-selector div.primary-language {
+header div.header--first-row div.first-row__right-container div#site-language-selector div.primary-language {
   width: 23px;
   height: 23px;
   border-radius: 50%;
@@ -154,10 +155,10 @@ body#inas-contactpage header div.header--first-row div.first-row__right-containe
   border: 3px solid #FFFFFF;
   margin: auto 10px auto 20px;
 }
-body#inas-contactpage header div.header--first-row div.first-row__right-container div#site-language-selector div.primary-language:hover {
+header div.header--first-row div.first-row__right-container div#site-language-selector div.primary-language:hover {
   cursor: pointer;
 }
-body#inas-contactpage header div.header--first-row div.first-row__right-container div#site-language-selector div.second-language {
+header div.header--first-row div.first-row__right-container div#site-language-selector div.second-language {
   width: 23px;
   height: 23px;
   border-radius: 50%;
@@ -167,10 +168,10 @@ body#inas-contactpage header div.header--first-row div.first-row__right-containe
   border: 3px solid #FFFFFF;
   margin: auto 0;
 }
-body#inas-contactpage header div.header--first-row div.first-row__right-container div#site-language-selector div.second-language:hover {
+header div.header--first-row div.first-row__right-container div#site-language-selector div.second-language:hover {
   cursor: pointer;
 }
-body#inas-contactpage header div.header--second-row {
+header div.header--second-row {
   width: 100%;
   height: 106px;
   padding: 0 150px;
@@ -180,7 +181,7 @@ body#inas-contactpage header div.header--second-row {
   align-items: center;
   background: #FFFFFF;
 }
-body#inas-contactpage header div.header--second-row div.second-row__left-container div#site-logo-icon {
+header div.header--second-row div.second-row__left-container div#site-logo-icon {
   width: 120px;
   height: 80px;
   background: url("../../assets/images/icons/inas__logo.png") no-repeat;
@@ -190,20 +191,20 @@ body#inas-contactpage header div.header--second-row div.second-row__left-contain
   padding: 0;
   border: 0;
 }
-body#inas-contactpage header div.header--second-row div.second-row__left-container div#site-logo-icon:hover {
+header div.header--second-row div.second-row__left-container div#site-logo-icon:hover {
   cursor: pointer;
 }
-body#inas-contactpage header div.header--second-row div.second-row__right-container div#site-search-and-socials {
+header div.header--second-row div.second-row__right-container div#site-search-and-socials {
   display: flex;
 }
-body#inas-contactpage header div.header--second-row div.second-row__right-container div#site-search-and-socials form.site-search-bar {
+header div.header--second-row div.second-row__right-container div#site-search-and-socials form.site-search-bar {
   position: relative;
   width: auto;
   display: flex;
   justify-content: start;
   align-items: center;
 }
-body#inas-contactpage header div.header--second-row div.second-row__right-container div#site-search-and-socials form.site-search-bar input {
+header div.header--second-row div.second-row__right-container div#site-search-and-socials form.site-search-bar input {
   width: 236px;
   font-weight: 500;
   font-size: 12px;
@@ -214,7 +215,7 @@ body#inas-contactpage header div.header--second-row div.second-row__right-contai
   margin: 0;
   padding: 8px 20px 8px 40px;
 }
-body#inas-contactpage header div.header--second-row div.second-row__right-container div#site-search-and-socials form.site-search-bar button.search-icon {
+header div.header--second-row div.second-row__right-container div#site-search-and-socials form.site-search-bar button.search-icon {
   position: absolute;
   top: 5px;
   left: 8px;
@@ -226,17 +227,17 @@ body#inas-contactpage header div.header--second-row div.second-row__right-contai
   background-size: 40%;
   background-position: center;
 }
-body#inas-contactpage header div.header--second-row div.second-row__right-container div#site-search-and-socials form.site-search-bar button.search-icon:hover {
+header div.header--second-row div.second-row__right-container div#site-search-and-socials form.site-search-bar button.search-icon:hover {
   cursor: pointer;
   background-color: #00986F;
 }
-body#inas-contactpage header div.header--second-row div.second-row__right-container div#site-search-and-socials div.socials-icons {
+header div.header--second-row div.second-row__right-container div#site-search-and-socials div.socials-icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 120px;
 }
-body#inas-contactpage header div.header--second-row div.second-row__right-container div#site-search-and-socials div.socials-icons img {
+header div.header--second-row div.second-row__right-container div#site-search-and-socials div.socials-icons img {
   width: 20px;
   height: 20px;
   opacity: 0.9;
@@ -245,12 +246,12 @@ body#inas-contactpage header div.header--second-row div.second-row__right-contai
   border: 0;
   filter: grayscale(100%) contrast(0%) brightness(0%);
 }
-body#inas-contactpage header div.header--second-row div.second-row__right-container div#site-search-and-socials div.socials-icons img:hover {
+header div.header--second-row div.second-row__right-container div#site-search-and-socials div.socials-icons img:hover {
   filter: grayscale(0%);
   cursor: pointer;
   opacity: 1;
 }
-body#inas-contactpage header div.header--third-row {
+header div.header--third-row {
   width: 100%;
   height: auto;
   padding: 0 150px;
@@ -258,7 +259,7 @@ body#inas-contactpage header div.header--third-row {
   margin: 0;
   position: relative;
 }
-body#inas-contactpage header div.header--third-row div.main-container {
+header div.header--third-row div.main-container {
   width: 100%;
   height: 506px;
   border: 0;
@@ -268,7 +269,7 @@ body#inas-contactpage header div.header--third-row div.main-container {
   display: flex;
   justify-content: center;
 }
-body#inas-contactpage header div.header--third-row div.main-container nav#site-navigation-links {
+header div.header--third-row div.main-container nav#site-navigation-links {
   width: 99%;
   height: 56px;
   margin: 6px auto;
@@ -279,7 +280,7 @@ body#inas-contactpage header div.header--third-row div.main-container nav#site-n
   flex-wrap: wrap;
   justify-content: center;
 }
-body#inas-contactpage header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link {
+header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link {
   min-width: 130px;
   text-align: center;
   font-size: 14px;
@@ -292,7 +293,7 @@ body#inas-contactpage header div.header--third-row div.main-container nav#site-n
   border: 0;
   text-transform: uppercase;
 }
-body#inas-contactpage header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link a.navigation-direct-link {
+header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link a.navigation-direct-link {
   min-width: 130px;
   color: inherit !important;
   -webkit-transition: none;
@@ -301,17 +302,17 @@ body#inas-contactpage header div.header--third-row div.main-container nav#site-n
   transition: none;
   padding: 18px 30px;
 }
-body#inas-contactpage header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link a.navigation-direct-link:hover {
+header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link a.navigation-direct-link:hover {
   cursor: pointer;
   color: #393939 !important;
   background-color: #d1e7db;
 }
-body#inas-contactpage header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link:hover {
+header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link:hover {
   cursor: pointer;
   color: #393939;
   background-color: #d1e7db;
 }
-body#inas-contactpage header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link-pane {
+header div.header--third-row div.main-container nav#site-navigation-links div.navigation-link-pane {
   position: absolute;
   top: 58px;
   width: 100%;
@@ -320,7 +321,7 @@ body#inas-contactpage header div.header--third-row div.main-container nav#site-n
   display: none;
   padding: 30px;
 }
-body#inas-contactpage header div.header--third-row div.main-container nav#site-navigation-links span.navigation-with-options::after {
+header div.header--third-row div.main-container nav#site-navigation-links span.navigation-with-options::after {
   background-image: url("../../assets/images/icons/black-arrow__icon.svg");
   background-size: contain;
   background-position: center;
@@ -337,23 +338,23 @@ body#inas-contactpage header div.header--third-row div.main-container nav#site-n
   display: inline-block;
   transform: translateY(-50%) rotate(0deg);
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel {
+header div.header--third-row div.main-container section#site-image-carousel {
   width: 100%;
   height: auto;
   position: relative;
   z-index: 30;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner {
   width: 100%;
   height: 506px;
   position: relative;
   z-index: 31;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item {
   width: 100%;
   height: 100%;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item div.carousel-image-text {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item div.carousel-image-text {
   width: 350px;
   max-height: 240px;
   z-index: 34;
@@ -372,7 +373,7 @@ body#inas-contactpage header div.header--third-row div.main-container section#si
   padding: 15px 10px;
   border-radius: 5px;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item div.carousel-image-gradient-layer {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item div.carousel-image-gradient-layer {
   width: 756px;
   height: 506px;
   background: black;
@@ -382,11 +383,11 @@ body#inas-contactpage header div.header--third-row div.main-container section#si
   position: absolute;
   z-index: 33;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item img.carousel-image {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item img.carousel-image {
   object-fit: cover;
   z-index: 32;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area {
   width: 756px;
   height: 506px;
   position: absolute;
@@ -395,7 +396,7 @@ body#inas-contactpage header div.header--third-row div.main-container section#si
   justify-content: center;
   align-items: center;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons {
   width: 75px;
   height: 36px;
   z-index: 32;
@@ -406,7 +407,7 @@ body#inas-contactpage header div.header--third-row div.main-container section#si
   justify-content: space-between;
   align-items: center;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons a#left-carousel-image {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons a#left-carousel-image {
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -419,7 +420,7 @@ body#inas-contactpage header div.header--third-row div.main-container section#si
   -o-transition: none !important;
   transition: none !important;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons a#left-carousel-image:hover {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons a#left-carousel-image:hover {
   width: 35px;
   height: 35px;
   cursor: pointer;
@@ -428,7 +429,7 @@ body#inas-contactpage header div.header--third-row div.main-container section#si
   background-position: center;
   transform: rotate(180deg);
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons #right-carousel-image {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons #right-carousel-image {
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -442,7 +443,7 @@ body#inas-contactpage header div.header--third-row div.main-container section#si
   -o-transition: none !important;
   transition: none !important;
 }
-body#inas-contactpage header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons #right-carousel-image:hover {
+header div.header--third-row div.main-container section#site-image-carousel div.carousel-action-area div.action-buttons #right-carousel-image:hover {
   width: 35px;
   height: 35px;
   cursor: pointer;
@@ -451,7 +452,8 @@ body#inas-contactpage header div.header--third-row div.main-container section#si
   background-position: center;
   transform: rotate(0deg);
 }
-body#inas-contactpage main#main-content-area {
+
+main#main-content-area {
   width: 100%;
   height: auto;
   padding: 0 150px;
@@ -461,7 +463,7 @@ body#inas-contactpage main#main-content-area {
   color: #393939;
   position: relative;
 }
-body#inas-contactpage main#main-content-area section.main__left-container {
+main#main-content-area section.main__left-container {
   width: calc(100% - 400px);
   height: auto;
   padding: 0;
@@ -470,7 +472,7 @@ body#inas-contactpage main#main-content-area section.main__left-container {
   display: flex;
   flex-direction: column;
 }
-body#inas-contactpage main#main-content-area section.main__left-container h2.left-container--section-title {
+main#main-content-area section.main__left-container h2.left-container--section-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -479,7 +481,7 @@ body#inas-contactpage main#main-content-area section.main__left-container h2.lef
   margin: 40px 0 0 0;
   padding: 0 30px 0 0;
 }
-body#inas-contactpage main#main-content-area section.main__left-container h2.left-container--section-title a.left-container--section-title-link {
+main#main-content-area section.main__left-container h2.left-container--section-title a.left-container--section-title-link {
   text-align: right;
   font-size: 13px;
   margin: auto 0;
@@ -487,12 +489,12 @@ body#inas-contactpage main#main-content-area section.main__left-container h2.lef
   border-radius: 10px;
   color: #a26115;
 }
-body#inas-contactpage main#main-content-area section.main__left-container h2.left-container--section-title a.left-container--section-title-link:hover {
+main#main-content-area section.main__left-container h2.left-container--section-title a.left-container--section-title-link:hover {
   cursor: pointer;
   background-color: #8a5213;
   color: white;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-card-news {
+main#main-content-area section.main__left-container div#featured-card-news {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -500,7 +502,7 @@ body#inas-contactpage main#main-content-area section.main__left-container div#fe
   gap: 20px;
   margin: 30px 20px 0 0px;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-card-news div.tiled-card {
+main#main-content-area section.main__left-container div#featured-card-news div.tiled-card {
   overflow: hidden;
   width: 380px;
   height: 300px;
@@ -511,26 +513,26 @@ body#inas-contactpage main#main-content-area section.main__left-container div#fe
   border: 1px dotted rgba(0, 0, 0, 0.2);
   position: relative;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-card-news div.tiled-card:hover {
+main#main-content-area section.main__left-container div#featured-card-news div.tiled-card:hover {
   opacity: 1;
   border: 1px dotted rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-card-news div.tiled-card:hover div.tiled-card-thumbnail img {
+main#main-content-area section.main__left-container div#featured-card-news div.tiled-card:hover div.tiled-card-thumbnail img {
   width: 101%;
   height: 101%;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail {
+main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail {
   width: 100%;
   height: calc(100% - 120px);
   background-color: rgba(57, 57, 57, 0.15);
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail img {
+main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description {
+main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description {
   width: 100%;
   min-height: 120px;
   padding: 10px;
@@ -538,12 +540,12 @@ body#inas-contactpage main#main-content-area section.main__left-container div#fe
   position: absolute;
   bottom: 0;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description h4 {
+main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description h4 {
   color: #5a5a5a;
   font-size: 12px;
   margin: 10px 10px 30px 10px;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description h3 {
+main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description h3 {
   width: 96%;
   height: 50px;
   margin: 10px;
@@ -553,52 +555,52 @@ body#inas-contactpage main#main-content-area section.main__left-container div#fe
   text-overflow: ellipsis;
   overflow: hidden;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts {
+main#main-content-area section.main__left-container div#featured-docs-posts {
   width: 100%;
   height: auto;
   margin: 30px 20px 0 0px;
   padding: 0 30px 0 0;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons {
   display: flex;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons div {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons div {
   padding: 20px 30px;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   color: #5a5a5a;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons div:hover {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons div:hover {
   cursor: pointer;
   background-color: black !important;
   color: white;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons div.active {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons div.active {
   background-color: rgba(0, 152, 111, 0.95);
   color: white;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards {
   width: 100%;
   min-height: 50px;
   border: 1px dotted #393939;
   border-top: 3px solid rgba(0, 152, 111, 0.95);
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div {
   width: 100%;
   display: none;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul {
   width: 100%;
   list-style: none;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li {
   display: flex;
   align-items: center;
   padding: 15px 20px;
   border-bottom: 1px solid rgba(57, 57, 57, 0.07);
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li div.pdf__icon {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li div.pdf__icon {
   display: flex;
   width: 22px;
   height: 22px;
@@ -606,18 +608,18 @@ body#inas-contactpage main#main-content-area section.main__left-container div#fe
   background-size: contain;
   background-position: center;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li a {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li a {
   margin: 0 0 0 15px;
   text-decoration: none;
   color: #393939;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li a:hover {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li a:hover {
   text-decoration: underline !important;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div.active {
+main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div.active {
   display: flex;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files {
+main#main-content-area section.main__left-container div#featured-media-files {
   width: 100%;
   min-height: 280px;
   margin: 30px 20px 0 0px;
@@ -626,31 +628,31 @@ body#inas-contactpage main#main-content-area section.main__left-container div#fe
   display: flex;
   gap: 60px;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video {
   width: 700px;
   height: auto;
   display: flex;
   flex-direction: column;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-title {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-title {
   width: 100%;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
   margin: 0 0 20px 0;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-player {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-player {
   width: 100%;
   min-height: 350px;
   background-color: rgba(0, 152, 111, 0.95);
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-player iframe {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-player iframe {
   width: 100%;
   height: 350px;
   border: 3px solid rgba(0, 152, 111, 0.95);
   border-radius: 10px;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video a {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video a {
   align-self: flex-end;
   width: 135px;
   height: auto;
@@ -661,38 +663,38 @@ body#inas-contactpage main#main-content-area section.main__left-container div#fe
   border-radius: 10px;
   color: #a26115;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video a:hover {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video a:hover {
   cursor: pointer;
   background-color: #8a5213;
   color: white;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo {
   width: 400px;
   height: auto;
   display: flex;
   flex-direction: column;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-title {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-title {
   width: 100%;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
   margin: 0 0 20px 0;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-frame {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-frame {
   width: 100%;
   height: 350px;
   background-color: rgba(0, 152, 111, 0.95);
   object-fit: cover;
   overflow: hidden;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-frame img {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-frame img {
   width: 400px;
   height: 350px;
   border: 10px solid rgba(0, 152, 111, 0.95);
   border-bottom: 40px solid rgba(0, 152, 111, 0.95);
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo a {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo a {
   align-self: flex-end;
   width: 135px;
   height: auto;
@@ -703,12 +705,12 @@ body#inas-contactpage main#main-content-area section.main__left-container div#fe
   border-radius: 10px;
   color: #a26115;
 }
-body#inas-contactpage main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo a:hover {
+main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo a:hover {
   cursor: pointer;
   background-color: #8a5213;
   color: white;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container {
+main#main-content-area aside.main__right-container {
   width: 400px;
   min-height: 628px;
   margin: 0 0 0 4px;
@@ -723,13 +725,13 @@ body#inas-contactpage main#main-content-area aside.main__right-container {
   background-image: linear-gradient(rgba(225, 225, 225, 0.7), #ffffff);
   font-size: 13px;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container h2.right-container--section-title {
+main#main-content-area aside.main__right-container h2.right-container--section-title {
   width: 100%;
   font-size: 14px;
   margin: 30px 0;
   text-align: left;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-structure {
+main#main-content-area aside.main__right-container div#featured-company-structure {
   width: 100%;
   height: auto;
   display: flex;
@@ -737,13 +739,13 @@ body#inas-contactpage main#main-content-area aside.main__right-container div#fea
   padding: 0 0 0 20px;
   gap: 30px;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person {
+main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person {
   width: 100%;
   min-height: 100px;
   display: flex;
   gap: 20px;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-text {
+main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-text {
   width: 200px;
   font-size: 14px;
   line-height: 5px;
@@ -753,18 +755,18 @@ body#inas-contactpage main#main-content-area aside.main__right-container div#fea
   justify-content: center;
   padding: 20px 0;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo {
+main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo {
   width: 100px;
   height: 115px;
   border: 1px solid rgba(57, 57, 57, 0.2);
   object-fit: cover;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo img {
+main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo img {
   width: 100%;
   height: 100%;
   border: 6px solid rgba(255, 255, 255, 0.7);
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-structure a.company-structure-more-button {
+main#main-content-area aside.main__right-container div#featured-company-structure a.company-structure-more-button {
   width: 170px;
   padding: 7px 15px;
   margin: -5px 0 0 120px;
@@ -776,11 +778,11 @@ body#inas-contactpage main#main-content-area aside.main__right-container div#fea
   font-weight: 600;
   border-radius: 12px;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-structure a.company-structure-more-button:hover {
+main#main-content-area aside.main__right-container div#featured-company-structure a.company-structure-more-button:hover {
   cursor: pointer;
   color: #393939;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-days {
+main#main-content-area aside.main__right-container div#featured-company-days {
   width: 100%;
   height: auto;
   display: flex;
@@ -788,13 +790,13 @@ body#inas-contactpage main#main-content-area aside.main__right-container div#fea
   padding: 0 0 0 20px;
   gap: 20px;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links {
+main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links span {
+main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links span {
   width: 60px;
   height: 50px;
   padding: 10px;
@@ -807,7 +809,7 @@ body#inas-contactpage main#main-content-area aside.main__right-container div#fea
   color: white;
   background-color: rgba(0, 152, 111, 0.95);
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links a {
+main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links a {
   width: 280px;
   height: 50px;
   font-size: 13px;
@@ -818,11 +820,11 @@ body#inas-contactpage main#main-content-area aside.main__right-container div#fea
   text-overflow: ellipsis;
   color: #393939;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links a:hover {
+main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links a:hover {
   cursor: pointer;
   text-decoration: underline !important;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-quick-links {
+main#main-content-area aside.main__right-container div#featured-quick-links {
   min-height: 60px;
   background-color: #393939;
   margin: 30px 20px;
@@ -830,7 +832,7 @@ body#inas-contactpage main#main-content-area aside.main__right-container div#fea
   flex-direction: column;
   gap: 2px;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-quick-links a.quick-link {
+main#main-content-area aside.main__right-container div#featured-quick-links a.quick-link {
   width: 100%;
   padding: 20px;
   text-align: left;
@@ -842,19 +844,20 @@ body#inas-contactpage main#main-content-area aside.main__right-container div#fea
   color: white;
   background-color: rgba(255, 255, 255, 0.05);
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-quick-links a.quick-link:hover {
+main#main-content-area aside.main__right-container div#featured-quick-links a.quick-link:hover {
   color: white;
   background-color: rgba(0, 152, 111, 0.95);
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-quick-banner {
+main#main-content-area aside.main__right-container div#featured-quick-banner {
   height: auto;
   margin: 30px 20px;
   object-fit: cover;
 }
-body#inas-contactpage main#main-content-area aside.main__right-container div#featured-quick-banner img.quick-banner-image {
+main#main-content-area aside.main__right-container div#featured-quick-banner img.quick-banner-image {
   width: 100%;
 }
-body#inas-contactpage footer {
+
+footer {
   width: 100%;
   height: auto;
   position: relative;
@@ -868,7 +871,7 @@ body#inas-contactpage footer {
   align-items: center;
   position: relative;
 }
-body#inas-contactpage footer div.footer__icon {
+footer div.footer__icon {
   width: 62px;
   height: 62px;
   border: 1px solid #e4e4e4;
@@ -879,7 +882,7 @@ body#inas-contactpage footer div.footer__icon {
   margin: -31px 0 0 0;
   border-radius: 31px;
 }
-body#inas-contactpage footer div.footer__container {
+footer div.footer__container {
   width: 100%;
   min-height: 280px;
   display: flex;
@@ -888,20 +891,20 @@ body#inas-contactpage footer div.footer__container {
   gap: 30px;
   margin: 20px 0 40px 0;
 }
-body#inas-contactpage footer div.footer__container div.footer__links {
+footer div.footer__container div.footer__links {
   width: 150px;
   height: 200px;
 }
-body#inas-contactpage footer div.footer__container div.footer__links h4 {
+footer div.footer__container div.footer__links h4 {
   width: 100%;
   text-align: left;
   font-size: 15px !important;
 }
-body#inas-contactpage footer div.footer__container div.footer__links ul {
+footer div.footer__container div.footer__links ul {
   width: 100%;
   list-style: none;
 }
-body#inas-contactpage footer div.footer__container div.footer__links ul li {
+footer div.footer__container div.footer__links ul li {
   width: 100%;
   padding: 0;
   text-wrap: wrap;
@@ -909,13 +912,13 @@ body#inas-contactpage footer div.footer__container div.footer__links ul li {
   color: rgba(57, 57, 57, 0.8);
   line-height: 20px;
 }
-body#inas-contactpage footer div.footer__container div.footer__links ul li a {
+footer div.footer__container div.footer__links ul li a {
   color: inherit;
 }
-body#inas-contactpage footer div.footer__container div.footer__links ul li a:hover {
+footer div.footer__container div.footer__links ul li a:hover {
   text-decoration: underline !important;
 }
-body#inas-contactpage footer div.footer__copyright {
+footer div.footer__copyright {
   width: 100%;
   min-height: 40px;
   font-size: 14px;
@@ -925,11 +928,11 @@ body#inas-contactpage footer div.footer__copyright {
   justify-content: space-between;
   color: #5a5a5a;
 }
-body#inas-contactpage footer div.footer__copyright span {
+footer div.footer__copyright span {
   display: flex;
   align-items: center !important;
 }
-body#inas-contactpage footer div.footer__copyright span div {
+footer div.footer__copyright span div {
   line-height: 22px;
   margin: 20px 0 0 12px;
   text-transform: uppercase;
