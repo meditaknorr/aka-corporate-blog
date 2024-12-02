@@ -17,8 +17,6 @@
   /* IE 10 and IE 11 */
   -moz-user-select: none;
        user-select: none;
-  -moz-user-select: none;
-       user-select: none;
   /* Standard syntax */
 }
 
@@ -255,7 +253,6 @@ header div.header--third-row {
 }
 header div.header--third-row div.main-container {
   width: 100%;
-  height: 506px;
   border: 0;
   margin: 0;
   padding: 0;
@@ -368,14 +365,11 @@ header div.header--third-row div.main-container section#site-image-carousel div.
   width: 756px;
   height: 506px;
   background: rgb(0, 0, 0);
-  background: rgb(0, 0, 0);
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
   position: absolute;
   z-index: 33;
 }
 header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item img.carousel-image {
-  -o-object-fit: cover;
-     object-fit: cover;
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 32;
@@ -440,7 +434,7 @@ header div.header--third-row div.main-container section#site-image-carousel div.
   transform: rotate(0deg);
 }
 
-main#main-content-area {
+main {
   width: 100%;
   height: auto;
   padding: 0 150px;
@@ -450,7 +444,7 @@ main#main-content-area {
   color: #393939;
   position: relative;
 }
-main#main-content-area section.main__left-container {
+main section.main__left-container {
   width: calc(100% - 400px);
   height: auto;
   padding: 0;
@@ -459,7 +453,7 @@ main#main-content-area section.main__left-container {
   display: flex;
   flex-direction: column;
 }
-main#main-content-area section.main__left-container h2.left-container--section-title {
+main section.main__left-container h2.left-container--section-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -468,7 +462,7 @@ main#main-content-area section.main__left-container h2.left-container--section-t
   margin: 40px 0 0 0;
   padding: 0 30px 0 0;
 }
-main#main-content-area section.main__left-container h2.left-container--section-title a.left-container--section-title-link {
+main section.main__left-container h2.left-container--section-title a.left-container--section-title-link {
   text-align: right;
   font-size: 13px;
   margin: auto 0;
@@ -476,12 +470,12 @@ main#main-content-area section.main__left-container h2.left-container--section-t
   border-radius: 10px;
   color: #a26115;
 }
-main#main-content-area section.main__left-container h2.left-container--section-title a.left-container--section-title-link:hover {
+main section.main__left-container h2.left-container--section-title a.left-container--section-title-link:hover {
   cursor: pointer;
   background-color: #8a5213;
   color: white;
 }
-main#main-content-area section.main__left-container div#featured-card-news {
+main section.main__left-container div#featured-card-news {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -489,7 +483,7 @@ main#main-content-area section.main__left-container div#featured-card-news {
   gap: 20px;
   margin: 30px 20px 0 0px;
 }
-main#main-content-area section.main__left-container div#featured-card-news div.tiled-card {
+main section.main__left-container div#featured-card-news div.tiled-card {
   overflow: hidden;
   width: 380px;
   height: 300px;
@@ -500,29 +494,27 @@ main#main-content-area section.main__left-container div#featured-card-news div.t
   border: 1px dotted rgba(0, 0, 0, 0.2);
   position: relative;
 }
-main#main-content-area section.main__left-container div#featured-card-news div.tiled-card:hover {
+main section.main__left-container div#featured-card-news div.tiled-card:hover {
   opacity: 1;
   border: 1px dotted rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
-main#main-content-area section.main__left-container div#featured-card-news div.tiled-card:hover div.tiled-card-thumbnail img {
+main section.main__left-container div#featured-card-news div.tiled-card:hover div.tiled-card-thumbnail img {
   width: 101%;
   height: 101%;
 }
-main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail {
+main section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail {
   width: 100%;
   height: calc(100% - 120px);
   background-color: rgba(57, 57, 57, 0.15);
 }
-main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail img {
+main section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
-main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description {
+main section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description {
   width: 100%;
   min-height: 120px;
   padding: 10px;
@@ -530,12 +522,12 @@ main#main-content-area section.main__left-container div#featured-card-news div.t
   position: absolute;
   bottom: 0;
 }
-main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description h4 {
+main section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description h4 {
   color: #5a5a5a;
   font-size: 12px;
   margin: 10px 10px 30px 10px;
 }
-main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description h3 {
+main section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-description h3 {
   width: 96%;
   height: 50px;
   margin: 10px;
@@ -545,52 +537,52 @@ main#main-content-area section.main__left-container div#featured-card-news div.t
   text-overflow: ellipsis;
   overflow: hidden;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts {
+main section.main__left-container div#featured-docs-posts {
   width: 100%;
   height: auto;
   margin: 30px 20px 0 0px;
   padding: 0 30px 0 0;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons {
+main section.main__left-container div#featured-docs-posts div.docs-posts-buttons {
   display: flex;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons div {
+main section.main__left-container div#featured-docs-posts div.docs-posts-buttons div {
   padding: 20px 30px;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   color: #5a5a5a;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons div:hover {
+main section.main__left-container div#featured-docs-posts div.docs-posts-buttons div:hover {
   cursor: pointer;
   background-color: black !important;
   color: white;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-buttons div.active {
+main section.main__left-container div#featured-docs-posts div.docs-posts-buttons div.active {
   background-color: rgba(0, 152, 111, 0.95);
   color: white;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards {
+main section.main__left-container div#featured-docs-posts div.docs-posts-boards {
   width: 100%;
   min-height: 50px;
   border: 1px dotted #393939;
   border-top: 3px solid rgba(0, 152, 111, 0.95);
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div {
+main section.main__left-container div#featured-docs-posts div.docs-posts-boards div {
   width: 100%;
   display: none;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul {
+main section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul {
   width: 100%;
   list-style: none;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li {
+main section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li {
   display: flex;
   align-items: center;
   padding: 15px 20px;
   border-bottom: 1px solid rgba(57, 57, 57, 0.07);
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li div.pdf__icon {
+main section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li div.pdf__icon {
   display: flex;
   width: 22px;
   height: 22px;
@@ -598,18 +590,18 @@ main#main-content-area section.main__left-container div#featured-docs-posts div.
   background-size: contain;
   background-position: center;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li a {
+main section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li a {
   margin: 0 0 0 15px;
   text-decoration: none;
   color: #393939;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li a:hover {
+main section.main__left-container div#featured-docs-posts div.docs-posts-boards div ul li a:hover {
   text-decoration: underline !important;
 }
-main#main-content-area section.main__left-container div#featured-docs-posts div.docs-posts-boards div.active {
+main section.main__left-container div#featured-docs-posts div.docs-posts-boards div.active {
   display: flex;
 }
-main#main-content-area section.main__left-container div#featured-media-files {
+main section.main__left-container div#featured-media-files {
   width: 100%;
   min-height: 280px;
   margin: 30px 20px 0 0px;
@@ -618,31 +610,31 @@ main#main-content-area section.main__left-container div#featured-media-files {
   display: flex;
   gap: 60px;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video {
+main section.main__left-container div#featured-media-files div.featured-media-video {
   width: 700px;
   height: auto;
   display: flex;
   flex-direction: column;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-title {
+main section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-title {
   width: 100%;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
   margin: 0 0 20px 0;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-player {
+main section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-player {
   width: 100%;
   min-height: 350px;
   background-color: rgba(0, 152, 111, 0.95);
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-player iframe {
+main section.main__left-container div#featured-media-files div.featured-media-video div.featured-media-video-player iframe {
   width: 100%;
   height: 350px;
   border: 3px solid rgba(0, 152, 111, 0.95);
   border-radius: 10px;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video a {
+main section.main__left-container div#featured-media-files div.featured-media-video a {
   align-self: flex-end;
   width: 135px;
   height: auto;
@@ -653,41 +645,39 @@ main#main-content-area section.main__left-container div#featured-media-files div
   border-radius: 10px;
   color: #a26115;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-video a:hover {
+main section.main__left-container div#featured-media-files div.featured-media-video a:hover {
   cursor: pointer;
   background-color: #8a5213;
   color: white;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo {
+main section.main__left-container div#featured-media-files div.featured-media-photo {
   width: 400px;
   height: auto;
   display: flex;
   flex-direction: column;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-title {
+main section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-title {
   width: 100%;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
   margin: 0 0 20px 0;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-frame {
+main section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-frame {
   width: 100%;
   height: 350px;
   background-color: rgba(0, 152, 111, 0.95);
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
   overflow: hidden;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-frame img {
+main section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-frame img {
   width: 400px;
   height: 350px;
   border: 10px solid rgba(0, 152, 111, 0.95);
   border-bottom: 40px solid rgba(0, 152, 111, 0.95);
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo a {
+main section.main__left-container div#featured-media-files div.featured-media-photo a {
   align-self: flex-end;
   width: 135px;
   height: auto;
@@ -698,12 +688,12 @@ main#main-content-area section.main__left-container div#featured-media-files div
   border-radius: 10px;
   color: #a26115;
 }
-main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo a:hover {
+main section.main__left-container div#featured-media-files div.featured-media-photo a:hover {
   cursor: pointer;
   background-color: #8a5213;
   color: white;
 }
-main#main-content-area aside.main__right-container {
+main aside.main__right-container {
   width: 400px;
   min-height: 628px;
   margin: 0 0 0 4px;
@@ -714,13 +704,13 @@ main#main-content-area aside.main__right-container {
   background-image: linear-gradient(rgba(225, 225, 225, 0.7), #ffffff);
   font-size: 13px;
 }
-main#main-content-area aside.main__right-container h2.right-container--section-title {
+main aside.main__right-container h2.right-container--section-title {
   width: 100%;
   font-size: 14px;
   margin: 30px 0;
   text-align: left;
 }
-main#main-content-area aside.main__right-container div#featured-company-structure {
+main aside.main__right-container div#featured-company-structure {
   width: 100%;
   height: auto;
   display: flex;
@@ -728,13 +718,13 @@ main#main-content-area aside.main__right-container div#featured-company-structur
   padding: 0 0 0 20px;
   gap: 30px;
 }
-main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person {
+main aside.main__right-container div#featured-company-structure div.company-structure-person {
   width: 100%;
   min-height: 100px;
   display: flex;
   gap: 20px;
 }
-main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-text {
+main aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-text {
   width: 200px;
   font-size: 14px;
   line-height: 5px;
@@ -744,21 +734,19 @@ main#main-content-area aside.main__right-container div#featured-company-structur
   justify-content: center;
   padding: 20px 0;
 }
-main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo {
+main aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo {
   width: 100px;
   height: 115px;
   border: 1px solid rgba(57, 57, 57, 0.2);
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
-main#main-content-area aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo img {
+main aside.main__right-container div#featured-company-structure div.company-structure-person div.person-profile-photo img {
   width: 100%;
   height: 100%;
   border: 6px solid rgba(255, 255, 255, 0.7);
 }
-main#main-content-area aside.main__right-container div#featured-company-structure a.company-structure-more-button {
+main aside.main__right-container div#featured-company-structure a.company-structure-more-button {
   width: 170px;
   padding: 7px 15px;
   margin: -5px 0 0 120px;
@@ -770,11 +758,11 @@ main#main-content-area aside.main__right-container div#featured-company-structur
   font-weight: 600;
   border-radius: 12px;
 }
-main#main-content-area aside.main__right-container div#featured-company-structure a.company-structure-more-button:hover {
+main aside.main__right-container div#featured-company-structure a.company-structure-more-button:hover {
   cursor: pointer;
   color: #393939;
 }
-main#main-content-area aside.main__right-container div#featured-company-days {
+main aside.main__right-container div#featured-company-days {
   width: 100%;
   height: auto;
   display: flex;
@@ -782,13 +770,13 @@ main#main-content-area aside.main__right-container div#featured-company-days {
   padding: 0 0 0 20px;
   gap: 20px;
 }
-main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links {
+main aside.main__right-container div#featured-company-days div.company-days-links {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
 }
-main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links span {
+main aside.main__right-container div#featured-company-days div.company-days-links span {
   width: 60px;
   height: 50px;
   padding: 10px;
@@ -801,7 +789,7 @@ main#main-content-area aside.main__right-container div#featured-company-days div
   color: white;
   background-color: rgba(0, 152, 111, 0.95);
 }
-main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links a {
+main aside.main__right-container div#featured-company-days div.company-days-links a {
   width: 280px;
   height: 50px;
   font-size: 13px;
@@ -812,11 +800,11 @@ main#main-content-area aside.main__right-container div#featured-company-days div
   text-overflow: ellipsis;
   color: #393939;
 }
-main#main-content-area aside.main__right-container div#featured-company-days div.company-days-links a:hover {
+main aside.main__right-container div#featured-company-days div.company-days-links a:hover {
   cursor: pointer;
   text-decoration: underline !important;
 }
-main#main-content-area aside.main__right-container div#featured-quick-links {
+main aside.main__right-container div#featured-quick-links {
   min-height: 60px;
   background-color: #393939;
   margin: 30px 20px;
@@ -824,7 +812,7 @@ main#main-content-area aside.main__right-container div#featured-quick-links {
   flex-direction: column;
   gap: 2px;
 }
-main#main-content-area aside.main__right-container div#featured-quick-links a.quick-link {
+main aside.main__right-container div#featured-quick-links a.quick-link {
   width: 100%;
   padding: 20px;
   text-align: left;
@@ -836,19 +824,17 @@ main#main-content-area aside.main__right-container div#featured-quick-links a.qu
   color: white;
   background-color: rgba(255, 255, 255, 0.05);
 }
-main#main-content-area aside.main__right-container div#featured-quick-links a.quick-link:hover {
+main aside.main__right-container div#featured-quick-links a.quick-link:hover {
   color: white;
   background-color: rgba(0, 152, 111, 0.95);
 }
-main#main-content-area aside.main__right-container div#featured-quick-banner {
+main aside.main__right-container div#featured-quick-banner {
   height: auto;
   margin: 30px 20px;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
-main#main-content-area aside.main__right-container div#featured-quick-banner img.quick-banner-image {
+main aside.main__right-container div#featured-quick-banner img.quick-banner-image {
   width: 100%;
 }
 
@@ -870,7 +856,6 @@ footer div.footer__icon {
   width: 62px;
   height: 62px;
   border: 1px solid #e4e4e4;
-  background-image: url("../../assets/images/icons/emblem__logo.png");
   background-image: url("../../assets/images/icons/emblem__logo.png");
   background-color: #e4e4e4;
   background-repeat: no-repeat;
