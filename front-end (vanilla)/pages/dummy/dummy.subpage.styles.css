@@ -17,6 +17,8 @@
   /* IE 10 and IE 11 */
   -moz-user-select: none;
        user-select: none;
+  -moz-user-select: none;
+       user-select: none;
   /* Standard syntax */
 }
 
@@ -366,11 +368,14 @@ header div.header--third-row div.main-container section#site-image-carousel div.
   width: 756px;
   height: 506px;
   background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
   position: absolute;
   z-index: 33;
 }
 header div.header--third-row div.main-container section#site-image-carousel div.carousel-inner div.item img.carousel-image {
+  -o-object-fit: cover;
+     object-fit: cover;
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 32;
@@ -512,6 +517,8 @@ main#main-content-area section.main__left-container div#featured-card-news div.t
 main#main-content-area section.main__left-container div#featured-card-news div.tiled-card div.tiled-card-thumbnail img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -670,6 +677,8 @@ main#main-content-area section.main__left-container div#featured-media-files div
   background-color: rgba(0, 152, 111, 0.95);
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
 }
 main#main-content-area section.main__left-container div#featured-media-files div.featured-media-photo div.featured-media-photo-frame img {
@@ -739,6 +748,8 @@ main#main-content-area aside.main__right-container div#featured-company-structur
   width: 100px;
   height: 115px;
   border: 1px solid rgba(57, 57, 57, 0.2);
+  -o-object-fit: cover;
+     object-fit: cover;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -834,6 +845,8 @@ main#main-content-area aside.main__right-container div#featured-quick-banner {
   margin: 30px 20px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 main#main-content-area aside.main__right-container div#featured-quick-banner img.quick-banner-image {
   width: 100%;
@@ -857,6 +870,7 @@ footer div.footer__icon {
   width: 62px;
   height: 62px;
   border: 1px solid #e4e4e4;
+  background-image: url("../../assets/images/icons/emblem__logo.png");
   background-image: url("../../assets/images/icons/emblem__logo.png");
   background-color: #e4e4e4;
   background-repeat: no-repeat;
