@@ -8,9 +8,12 @@
 
 // Home Variables
 let selectedLink = '';
+let date = new Date();
+let dateOptions = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
+let todaysDate = new Intl.DateTimeFormat("pt-pt", dateOptions).format(date);
 
 $(document).ready(function(){
-  /** HomePage */
+  $('div#user-current-date').text(todaysDate);
 
   $('div.navigation-link').click(function(e){
     showNavigationPane($(this).attr("id"));
