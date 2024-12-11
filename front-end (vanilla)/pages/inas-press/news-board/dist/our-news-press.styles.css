@@ -104,6 +104,7 @@ header div.header--first-row div.first-row__left-container div#user-current-date
   height: 43px;
   line-height: 43px;
   color: #393939;
+  text-transform: capitalize;
 }
 header div.header--first-row div.first-row__right-container {
   display: flex;
@@ -149,7 +150,7 @@ header div.header--first-row div.first-row__right-container div#site-language-se
   width: 23px;
   height: 23px;
   border-radius: 50%;
-  background: url("../../assets/images/icons/pt__icon.png") no-repeat;
+  background: url("../../../assets/images/icons/pt__icon.png") no-repeat;
   background-size: 25px 25px;
   background-position: center;
   border: 3px solid #FFFFFF;
@@ -162,7 +163,7 @@ header div.header--first-row div.first-row__right-container div#site-language-se
   width: 23px;
   height: 23px;
   border-radius: 50%;
-  background: url("../../assets/images/icons/uk__icon.png") no-repeat;
+  background: url("../../../assets/images/icons/uk__icon.png") no-repeat;
   background-size: cover;
   background-position: center;
   border: 3px solid #FFFFFF;
@@ -184,7 +185,7 @@ header div.header--second-row {
 header div.header--second-row div.second-row__left-container div#site-logo-icon {
   width: 120px;
   height: 80px;
-  background: url("../../assets/images/icons/inas__logo.png") no-repeat;
+  background: url("../../../assets/images/icons/inas__logo.png") no-repeat;
   background-size: contain;
   background-position: center;
   margin: auto 0;
@@ -223,7 +224,7 @@ header div.header--second-row div.second-row__right-container div#site-search-an
   height: 22px;
   border-radius: 50%;
   color: rgba(57, 57, 57, 0);
-  background: rgba(57, 57, 57, 0.2) url("../../assets/images/icons/magnifier__icon.svg") no-repeat;
+  background: rgba(57, 57, 57, 0.2) url("../../../assets/images/icons/magnifier__icon.svg") no-repeat;
   background-size: 40%;
   background-position: center;
 }
@@ -325,7 +326,7 @@ header div.header--third-row div.main-container nav#site-navigation-links div.na
   padding: 30px;
 }
 header div.header--third-row div.main-container nav#site-navigation-links span.navigation-with-options::after {
-  background-image: url("../../assets/images/icons/black-arrow__icon.svg");
+  background-image: url("../../../assets/images/icons/black-arrow__icon.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -344,7 +345,7 @@ header div.header--third-row div.main-container nav#site-navigation-links span.n
 header div.header--third-row div.main-container section#subpage-image-and-breadcrumbs {
   width: 100%;
   padding: 0 50px;
-  margin: 110px 0 0 0;
+  margin: 90px 0 0 0;
 }
 header div.header--third-row div.main-container section#subpage-image-and-breadcrumbs div.subpage-image {
   width: 100%;
@@ -359,18 +360,121 @@ header div.header--third-row div.main-container section#subpage-image-and-breadc
   height: 60px;
   display: flex;
   align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #393939 !important;
+}
+header div.header--third-row div.main-container section#subpage-image-and-breadcrumbs div.subpage-breadcrumbs span.parent-page-link {
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  text-transform: uppercase;
+}
+header div.header--third-row div.main-container section#subpage-image-and-breadcrumbs div.subpage-breadcrumbs span.parent-page-link::after {
+  content: "";
+  padding: 0 30px 0 15px;
+  background-image: url("../../../assets/images/icons/breadcrumb-green-arrow__icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16px;
+  position: relative;
+  left: -4px;
+  top: 2px;
+}
+header div.header--third-row div.main-container section#subpage-image-and-breadcrumbs div.subpage-breadcrumbs span.parent-page-link a {
+  text-decoration: underline !important;
+  color: #393939 !important;
+}
+header div.header--third-row div.main-container section#subpage-image-and-breadcrumbs div.subpage-breadcrumbs span.current-page-link {
+  text-transform: capitalize;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 0 0 0px;
+  opacity: 0.7;
 }
 
 main {
   width: 100%;
-  height: auto;
-  padding: 0 150px;
+  min-height: 300px;
+  padding: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   color: #393939;
   position: relative;
-  border: 1px solid green;
+}
+main div.card-news-filters {
+  height: 100px;
+  width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+main div.featured-card-news {
+  width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+}
+main div.featured-card-news div.tiled-card {
+  overflow: hidden;
+  width: 380px;
+  height: 300px;
+  border-radius: 0;
+  padding: 0;
+  margin: 10px 0;
+  opacity: 0.95;
+  border: 1px dotted rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+main div.featured-card-news div.tiled-card:hover {
+  opacity: 1;
+  border: 1px dotted rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+main div.featured-card-news div.tiled-card:hover div.tiled-card-thumbnail img {
+  width: 101%;
+  height: 101%;
+}
+main div.featured-card-news div.tiled-card div.tiled-card-thumbnail {
+  width: 100%;
+  height: calc(100% - 120px);
+  background-color: rgba(57, 57, 57, 0.15);
+}
+main div.featured-card-news div.tiled-card div.tiled-card-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main div.featured-card-news div.tiled-card div.tiled-card-description {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+}
+main div.featured-card-news div.tiled-card div.tiled-card-description h4 {
+  color: #5a5a5a;
+  font-size: 12px;
+  margin: 10px 10px 30px 10px;
+}
+main div.featured-card-news div.tiled-card div.tiled-card-description h3 {
+  width: 96%;
+  height: 50px;
+  margin: 10px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 footer {
@@ -391,7 +495,7 @@ footer div.footer__icon {
   width: 62px;
   height: 62px;
   border: 1px solid #e4e4e4;
-  background-image: url("../../assets/images/icons/emblem__logo.png");
+  background-image: url("../../../assets/images/icons/emblem__logo.png");
   background-color: #e4e4e4;
   background-repeat: no-repeat;
   background-size: cover;

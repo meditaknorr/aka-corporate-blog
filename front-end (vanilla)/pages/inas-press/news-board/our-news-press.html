@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./our-news-press.styles.css"/>
 
-    <script src="../../shared/javascript/jquery-3.7.1.min.js"></script>
+    <script src="../../../shared/javascript/jquery-3.7.1.min.js"></script>
 
     <meta charset="UTF-8">
     <meta http-equiv="Content-Language" content="pt">
@@ -33,7 +33,7 @@
     <header>
       <div class="header--first-row">
         <div class="first-row__left-container">
-          <div id="user-current-date">Sexta-feira, 10 de Outubro, 2024. (Use Resolution 1940 x 1230)</div>
+          <div id="user-current-date"></div>
         </div>
         <div class="first-row__right-container">
           <div id="site-language-selector">
@@ -56,15 +56,15 @@
         <div class="second-row__right-container">
           <div id="site-search-and-socials">
             <form action="/" class="site-search-bar">
-              <input type="text" placeholder="Pesquise aqui o que precisa">
+              <input type="text" placeholder="Pesquise pelo site">
               <button type="submit" class="search-icon" role="button" aria-label="INAS IP">_</button>
             </form>
 
             <div class="socials-icons">
-              <img alt="" src="../../assets/images/icons/facebook__icon.svg">
-              <img alt="" src="../../assets/images/icons/linkedin__icon.svg">
-              <img alt="" src="../../assets/images/icons/twitter__icon.svg">
-              <img alt="" src="../../assets/images/icons/youtube__icon.svg">
+              <img alt="" src="../../../assets/images/icons/facebook__icon.svg">
+              <img alt="" src="../../../assets/images/icons/linkedin__icon.svg">
+              <img alt="" src="../../../assets/images/icons/twitter__icon.svg">
+              <img alt="" src="../../../assets/images/icons/youtube__icon.svg">
             </div>
           </div>
         </div>
@@ -144,11 +144,12 @@
 
           <section id="subpage-image-and-breadcrumbs">
             <div class="subpage-image">
-              <img alt="" src="../../assets/images/gallery/Imprensa_folderimage.jpg">
+              <img alt="" src="../../../assets/images/gallery/Imprensa_folderimage.jpg">
             </div>
 
             <div class="subpage-breadcrumbs">
-              Imprensa > Noticias Publicadas
+              <span class="parent-page-link"><a href="../inas-press/our-press.html">Imprensa</a></span>
+              <span class="current-page-link">Noticias Publicadas</span>
             </div>
           </section>
         </div>
@@ -156,7 +157,68 @@
     </header>
     <!-- Header area: End -->
     <!-- Main area: Start -->
-    <main>Teste</main>
+    <main>
+      <div class="card-news-filters">teste</div>
+
+      <div class="featured-card-news">
+        <div class="tiled-card">
+          <div class="tiled-card-thumbnail">
+            <img alt="" src="../../../assets/images/gallery/noticia_2.jpg">
+          </div>
+          <div class="tiled-card-description">
+            <h4>28/08/2020, 11:33. Sofala, Beira</h4>
+            <h3>COVID-19 condiciona distribuição de subsídio às vítimas do Idai na Beira...</h3>
+          </div>
+        </div>
+        <div class="tiled-card">
+          <div class="tiled-card-thumbnail">
+            <img alt="" src="../../../assets/images/gallery/noticia_3.jpg">
+          </div>
+          <div class="tiled-card-description">
+            <h4>02/02/2024, 10:01. Inhambane, Maxixe</h4>
+            <h3>PR inaugura edifício do Instituto Nacional de Acção Social da Maxixe...</h3>
+          </div>
+        </div>
+        <div class="tiled-card">
+          <div class="tiled-card-thumbnail">
+            <img alt="" src="../../../assets/images/gallery/noticia_4.jpg">
+          </div>
+          <div class="tiled-card-description">
+            <h4>28/08/2020. Sofala, Beira</h4>
+            <h3>COVID-19 condiciona distribuição de subsídio às vítimas do Idai na Beira</h3>
+          </div>
+        </div>
+        <div class="tiled-card">
+          <div class="tiled-card-thumbnail">
+            <img alt="" src="../../../assets/images/gallery/noticia_5.jpg">
+          </div>
+          <div class="tiled-card-description">
+            <h4>28/08/2020, 08:10. Maputo, Maputo</h4>
+            <h3>INAS acolhe idosos vulneráveis em Catembe...</h3>
+          </div>
+        </div>
+        <div class="tiled-card">
+          <div class="tiled-card-thumbnail">
+            <img alt="" src="../../../assets/images/gallery/noticia_1.jpg">
+          </div>
+          <div class="tiled-card-description">
+            <h4>12/01/2022, 12:30. Cabo Delgado, Palma</h4>
+            <h3>Moçambique com mecanismo de apoio a grupos vulneráveis...</h3>
+          </div>
+        </div>
+        <div class="tiled-card">
+          <div class="tiled-card-thumbnail">
+            <img alt="" src="../../../assets/images/gallery/noticia_8.jpg">
+          </div>
+          <div class="tiled-card-description">
+            <h4>08/08/2023, 12:31. Zambezia, Nicoadala</h4>
+            <h3>Quarenta Mil Crianças Vão Receber Subsídio Social Básico Para Combater Desnutrição...</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagination"></div>
+    </main>
     <!-- Main area: End -->
     <!-- Footer area: Start -->
     <footer>
