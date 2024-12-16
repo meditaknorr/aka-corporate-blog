@@ -475,6 +475,20 @@ main {
     align-items: center;
     justify-content: flex-end;
     margin: 0 auto;
+
+    form {
+      display: flex;
+      gap: 10px;
+      input {
+        outline: 0;
+        &#title-keyword {
+          width: 250px;
+          font-size: 12px;
+          padding: 8px 20px;
+          border: 2px solid red;
+        }
+      }
+    }
   }
 
   div.featured-card-news {

@@ -402,6 +402,19 @@ main div.card-news-filters {
   justify-content: flex-end;
   margin: 0 auto;
 }
+main div.card-news-filters form {
+  display: flex;
+  gap: 10px;
+}
+main div.card-news-filters form input {
+  outline: 0;
+}
+main div.card-news-filters form input#title-keyword {
+  width: 250px;
+  font-size: 12px;
+  padding: 8px 20px;
+  border: 2px solid red;
+}
 main div.featured-card-news {
   width: 1600px;
   display: flex;
