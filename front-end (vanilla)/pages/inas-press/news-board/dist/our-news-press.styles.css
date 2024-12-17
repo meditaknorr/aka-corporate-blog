@@ -544,7 +544,7 @@ main div.pagination ul li {
   border: 1px solid rgba(57, 57, 57, 0.2);
   cursor: pointer;
 }
-main div.pagination ul li.active {
+main div.pagination ul li.active-page {
   background-color: #a26115;
   color: white;
   cursor: default;
