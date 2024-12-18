@@ -114,7 +114,7 @@ header div.header--first-row div.first-row__right-container {
 header div.header--first-row div.first-row__right-container div#site-webmaster {
   width: 100px;
   height: 25px;
-  border-radius: 10px;
+  border-radius: 0;
   text-align: center;
   margin: 0 0 0 20px;
   color: white;
