@@ -558,7 +558,7 @@ main {
         font-size: 13px;
         margin: auto 0;
         padding: 5px 20px;
-        border-radius: 10px;
+        border-radius: 0;
         color: rgba(#A26115, 1.0);
 
         &:hover {
@@ -587,6 +587,10 @@ main {
         opacity: 0.95;
         border: 1px dotted rgba(0, 0, 0, 0.2);
         position: relative;
+
+        a{
+          color: inherit;
+        }
 
         &:hover {
           opacity: 1;
@@ -760,7 +764,7 @@ main {
           font-weight: 600;
           margin: 10px 0;
           padding: 8px 20px;
-          border-radius: 10px;
+          border-radius: 0;
           color: rgba(#A26115, 1.0);
 
           &:hover {
@@ -808,7 +812,7 @@ main {
           font-weight: 600;
           margin: 10px 0;
           padding: 8px 20px;
-          border-radius: 10px;
+          border-radius: 0;
           color: rgba(#A26115, 1.0);
 
           &:hover {
@@ -892,7 +896,7 @@ main {
         color: rgba(#FFFFFF, 1.0);
         background-color: $--primaryGreen;
         font-weight: 600;
-        border-radius: 12px;
+        border-radius: 0;
         //align-self: flex-end;
 
         &:hover {
