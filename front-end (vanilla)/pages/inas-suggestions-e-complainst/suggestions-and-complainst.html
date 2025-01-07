@@ -170,10 +170,11 @@
     </div>
     <div class="contact-options-cards">
       <div class="contact-option">
-        <img alt="" src="">
-        <h1>Meios Alternativos:</h1><br />
+        <img alt="" src="../../assets/images/icons/others__icon.png">
+        <h1></h1><br />
         <h3>Endereco Fisico:<br />
-          Avenida de Angola, Bairro de Urbanizacao, Edificio n⁰ 123-456, C.P. n⁰ 1101, Cidade de Maputo, Mocambique</h3>
+          Avenida de Angola, Bairro de Urbanizacao, Edificio n⁰ 123-456, C.P. n⁰ 1101, Cidade de Maputo, Mocambique
+        </h3><br />
 
         <h3><br />
           E-mail:<br />
@@ -182,7 +183,51 @@
       </div>
 
       <div class="contact-form-option">
+        <h3>Formulario de Reclamacoes ou Sugestoes</h3>
+        <form action="">
 
+          <div class="form-input-group">
+            <span>
+              <label for="nome">Nome Completo</label>
+              <input type="text" id="nome" name="name" placeholder="Exemplo: Jose das Dores Umbani" required>
+            </span>
+
+            <span>
+              <label for="telefone">Numero de Telefone</label>
+              <input type="text" id="telefone" name="phone" placeholder="Exemplo: 87 12 35 678" required>
+            </span>
+          </div>
+
+          <div class="form-input-group">
+            <span style="width: 31% !important;">
+              <label for="provincia">Nome da Provincia</label>
+              <input type="text" id="provincia" name="province" placeholder="Exemplo: Sofala" required>
+            </span>
+
+            <span style="width: 31% !important;">
+              <label for="distrito">Cidade/Distrito</label>
+              <input type="text" id="distrito" name="district" placeholder="Exemplo: Cidade da Beira" required>
+            </span>
+
+            <span style="width: 31%!important;">
+              <label for="localidade">Localidade e Bairro</label>
+              <input type="text" id="localidade" name="neightboorhood" placeholder="Exemplo: Beira/Matacuane" required>
+            </span>
+          </div>
+
+          <label for="assuunto">Motivo de Contacto</label>
+          <select id="assunto" name="issue" required>
+            <option value="complainst">Reclamacao (INAS, Equipe, Concursos, Publicacoes, Programas, Dados, ...)</option>
+            <option value="suggestion">Sugestoes (INAS, Equipe, Concursos, Publicacoes, Programas, Dados, ...)</option>
+            <option value="others">Outros</option>
+          </select>
+
+          <label for="detalhes">Mensagem (Detalhes)</label>
+          <textarea id="detalhes" name="subject" placeholder="Detalhe aqui as suuas palavras, ideias, criticas, sugestoes.." style="height:100px" required></textarea>
+
+          <input type="submit" value="Enviar a mensagem">
+
+        </form>
       </div>
     </div>
   </main>

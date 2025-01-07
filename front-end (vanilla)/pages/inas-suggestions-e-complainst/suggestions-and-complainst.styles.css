@@ -424,7 +424,7 @@ main div.contact-options-cards {
 }
 main div.contact-options-cards div.contact-option {
   width: 400px;
-  height: 500px;
+  height: 530px;
   border: 1px solid rgba(57, 57, 57, 0.15);
   background-color: rgba(220, 218, 206, 0);
   padding: 20px 30px;
@@ -448,6 +448,61 @@ main div.contact-options-cards div.contact-option h3 {
 main div.contact-options-cards div.contact-option p {
   font-size: 14px;
   line-height: 40px;
+}
+main div.contact-options-cards div.contact-form-option {
+  width: 800px;
+  height: 530px;
+  border: 1px solid rgba(57, 57, 57, 0.15);
+  background-color: rgba(220, 218, 206, 0);
+  padding: 20px 45px;
+  position: relative;
+}
+main div.contact-options-cards div.contact-form-option h3 {
+  text-align: left;
+  font-size: 18px;
+  color: rgba(57, 57, 57, 0.8);
+  margin: 30px 0;
+}
+main div.contact-options-cards div.contact-form-option form {
+  display: flex;
+  flex-direction: column;
+}
+main div.contact-options-cards div.contact-form-option form div.form-input-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main div.contact-options-cards div.contact-form-option form div.form-input-group span {
+  width: 48%;
+  text-align: left;
+}
+main div.contact-options-cards div.contact-form-option form label {
+  text-align: left;
+  font-size: 12px;
+}
+main div.contact-options-cards div.contact-form-option form input[type=text], main div.contact-options-cards div.contact-form-option form select, main div.contact-options-cards div.contact-form-option form textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical;
+}
+main div.contact-options-cards div.contact-form-option form input[type=submit] {
+  background-color: #a26115;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+main div.contact-options-cards div.contact-form-option form input[type=submit]:hover {
+  cursor: pointer;
+  background-color: #8a5213;
 }
 
 footer {
