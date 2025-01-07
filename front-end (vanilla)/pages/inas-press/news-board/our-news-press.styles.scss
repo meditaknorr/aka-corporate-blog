@@ -555,6 +555,10 @@ main {
       margin: 10px 0;
       box-sizing: border-box;
 
+      a{
+        color: inherit;
+      }
+
       &:hover {
         opacity: 1;
         border: 1px dotted rgba(0, 0, 0, 0.4);

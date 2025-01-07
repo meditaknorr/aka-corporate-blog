@@ -470,6 +470,9 @@ main div.featured-card-news div.tiled-card {
   margin: 10px 0;
   box-sizing: border-box;
 }
+main div.featured-card-news div.tiled-card a {
+  color: inherit;
+}
 main div.featured-card-news div.tiled-card:hover {
   opacity: 1;
   border: 1px dotted rgba(0, 0, 0, 0.4);
