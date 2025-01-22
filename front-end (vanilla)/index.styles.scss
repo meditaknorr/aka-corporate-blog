@@ -9,14 +9,12 @@
 // font-family: "Poppins", sans-serif;
 
 // VARIABLES
-$--fontFamily: 'Fira Sans',
-sans-serif;
+$--fontFamily: 'Fira Sans', sans-serif;
 $--primaryGreen: rgba(#00986F, 0.95);
 $--secondGreen: rgba(#D1E7DB, 1.0);
 $--primaryBlack: rgba(#393939, 1.0);
 
 // STYLING
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -66,12 +64,6 @@ a:active {
 
 a {
   text-decoration: none !important;
-}
-
-html {
-  width: 100vw;
-  height: 100vh;
-  font-size: 16px;
 }
 
 body {
