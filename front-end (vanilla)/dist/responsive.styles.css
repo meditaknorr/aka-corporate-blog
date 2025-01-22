@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* Extra small devices (telefones em modo retrato, menos de 576px) */
+@media (max-width: 575.98px) {
+  /* Estilos específicos para telas menores */
+}
+/* Small devices (telefones em modo paisagem, ≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Estilos para telefones maiores */
+}
+/* Medium devices (tablets, ≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Estilos para tablets */
+}
+/* Large devices (desktops pequenos, ≥992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Estilos para laptops */
+}
+/* Extra large devices (desktops grandes, ≥1200px) */
+@media (min-width: 1200px) {
+  /* Estilos para desktops maiores */
+}
